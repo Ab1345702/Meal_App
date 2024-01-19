@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- External script for Font Awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/2d7fe3c722.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- Main container -->
+    <div id="main-div">
+      <!-- Header section -->
+      <header>
+        <!-- Logo section -->
+        <div id="logo">
+          <!-- Individual characters of the logo -->
+          <span class="char1">F</span>
+          <span class="char2">O</span>
+          <span class="char3">O</span>
+          <span class="char4">D</span>
+          <span class="char5">Y</span>
+          <span class="char6">'S</span>
+          <span class="char7">H</span>
+          <span class="char8">E</span>
+          <span class="char9">A</span>
+          <span class="char10">V</span>
+          <span class="char11">E</span>
+          <span class="char12">N</span>
+        </div>
+
+        <!-- Favorites dropmenu section -->
+        <div id="favorites" class="dropmenu">
+          <h2>My Favorite-Meal</h2>
+          <div id="favorite-dropmenu" class="dropmenu-content">
+            <ul id="favorite-list"></ul>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main content section -->
+      <main>
+        <!-- Search container -->
+        <div id="search-container">
+          <!-- Search input and button -->
+          <input type="text" id="search-input" placeholder="Enter Meal name" />
+          <button id="search-button">Search</button>
+
+          <!-- Search suggestions and results -->
+          <ul id="search-suggestions"></ul>
+          <div id="search-results"></div>
+        </div>
+      </main>
+
+      <!-- Meal section -->
+      <section id="meal-section">
+        <!-- Image container for the meal -->
+        <div id="image-container"></div>
+
+        <!-- Meal name and add to favorites button -->
+        <div id="meal-name"></div>
+        <button id="add-to-fav">
+          <i class="fa-sharp fa-solid fa-heart"></i>
+        </button>
+      </section>
+
+      <!-- Meal details section -->
+      <section id="meal-details">
+        <!-- Instructions heading (hidden by default) -->
+        <h1 id="instructions-heading" style="display: none">Instructions</h1>
+
+        <!-- Meal instructions content -->
+        <div id="meal-instructions"></div>
+      </section>
+    </div>
+
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
