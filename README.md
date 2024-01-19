@@ -1,6 +1,6 @@
-# FoodSaveN
+# Foody's Heaven
 
-FoodSaveN is a web application that allows users to search for meal recipes, add their favorite recipes, and view detailed information about each recipe.
+Foody's Heaven is a web application that allows users to search for meal recipes, add their favorite recipes, and view detailed information about each recipe.
 
 ## Table of Contents
 - [Features](#features)
@@ -19,12 +19,12 @@ FoodSaveN is a web application that allows users to search for meal recipes, add
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/FoodSaveN.git
+   git clone https://github.com/Ab1345702/Meal_App
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd FoodSaveN
+   cd Foody's Heaven
    ```
 
 
@@ -33,7 +33,7 @@ FoodSaveN is a web application that allows users to search for meal recipes, add
    ```bash
    ```
 
-2. Explore recipes, add favorites, and enjoy using FoodSaveN!
+2. Explore recipes, add favorites, and enjoy using Foody's Heaven!
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
