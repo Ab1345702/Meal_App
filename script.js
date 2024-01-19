@@ -178,7 +178,7 @@ document.addEventListener("click", (event) => {
 // Display the favorite list
 updateFavoriteList();
 
-// Function to fetch meal instructions based on the meal id
+// Function to fetch meal instructions based on  meal id
 async function fetchMealInstructions(mealId) {
   try {
     const response = await fetch(`${API_URL}lookup.php?i=${mealId}`);
