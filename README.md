@@ -7,16 +7,16 @@ Foody's Heaven is a web application that allows users to search for meal recipes
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
-## Features
+
+1) Features
 - Search for meal recipes by name.
 - Display suggestions while typing in the search bar.
 - View detailed information about a selected recipe.
 - Add favorite recipes to the list.
 - Toggle visibility of recipe details.
 
-### Installation
+2) Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/Ab1345702/Meal_App
@@ -28,14 +28,14 @@ Foody's Heaven is a web application that allows users to search for meal recipes
    ```
 
 
-## Usage
+3) Usage
 1. Start the development server:
    ```bash
    ```
 
 2. Explore recipes, add favorites, and enjoy using Foody's Heaven!
 
-## Contributing
+4) Contributing
 Contributions are welcome! Please follow these steps:
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature/new-feature`.
@@ -43,5 +43,3 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch: `git push origin feature/new-feature`.
 5. Submit a pull request.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
